@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style id="extcss">
+            .fa {
+            padding: 15px;
+            font-size: 20px;
+            width: 20px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+            border-radius: 50%;
+            }
+
+            .fa:hover {
+            opacity: 0.7;
+            }
+
+            .fa-twitter {
+            background: black;
+            color: white;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>Random Quote Generator</h1>
+        <div id="box">
+            <p><q id="quote"></q></p>
+            <br><br><br><br><br>
+            <p id="person"></p>
+            <p id="icon"><a href="" class="fa fa-twitter" data-show-count="false" target="_blank" id="tweet"></a></p>
+            <button type="button" id="access">Next Quote</button>
+        </div>
+        <div id="masthead"><p id="name">by<br><span>Priyabrata Biswas</span></p></div>
+        <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>
