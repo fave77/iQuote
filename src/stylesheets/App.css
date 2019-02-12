@@ -1,0 +1,48 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+html, body {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 1em;
+	height: 15em;
+	width: 30em;
+}
+
+main {
+	padding: 0 1em;
+	max-height: 6em;
+	min-height: 6em;
+}
+
+.fa {
+  margin: 5px 1px;
+  padding: 5px;
+  width: 30px;
+  font-size: 20px;
+	text-align: center;
+	align-content: center;
+	text-decoration: none;
+	border-radius: 50%;
+}
+
+.fa:hover {
+	cursor: pointer;
+  opacity: 0.7;
+}
+
+.fa-twitter {
+  color: white;
+	background: black;
+	float: left;
+}
+
+.fa-arrow-circle-right {
+	color: white;
+	background-color: black;
+	float: right;
+}
+
+button {
+	outline: none;
+	border: none;
+}

@@ -1,0 +1,41 @@
+{
+  "name": "iquote",
+  "version": "0.1.0",
+  "description": "A chrome extension that randomly generates inspirational quotes and let you tweet about it!",
+  "keywords": [
+    "chrome-extension",
+    "inspirational",
+    "quote",
+    "tweet",
+    "random"
+  ],
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-scripts": "2.1.4"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pbiswas101/iQuote.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pbiswas101/iQuote/issues"
+  },
+  "author": "Priyabrata Biswas",
+  "license": "MIT"
+}
