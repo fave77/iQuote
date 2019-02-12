@@ -1,17 +1,29 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css?family=Courgette');
 
-html, body {
+body {
 	box-sizing: border-box;
 	margin: 0;
-	padding: 1em;
-	height: 15em;
+	padding: 2em 1em;
+	height: 12em;
 	width: 30em;
+	background: linear-gradient(to right, #485563, #29323c);
 }
 
 main {
 	padding: 0 1em;
 	max-height: 6em;
 	min-height: 6em;
+	font-size: 1.2em;
+	font-family: 'Courgette', cursive;
+}
+
+.quote {
+	color: #f9fdfc;
+}
+
+.author {
+	color: #979998;
 }
 
 .fa {
@@ -21,6 +33,7 @@ main {
   font-size: 20px;
 	text-align: center;
 	align-content: center;
+  color: #f9fdfc;
 	text-decoration: none;
 	border-radius: 50%;
 }
@@ -31,13 +44,11 @@ main {
 }
 
 .fa-twitter {
-  color: white;
 	background: black;
 	float: left;
 }
 
-.fa-arrow-circle-right {
-	color: white;
+.fa-arrow-right {
 	background-color: black;
 	float: right;
 }

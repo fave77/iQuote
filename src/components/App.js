@@ -18,7 +18,7 @@ class App extends React.Component {
 	}
 
 	componentDidMount() {
-		fetch('http://192.168.0.6:8000/quotes')
+		fetch('https://iquote101.herokuapp.com/quotes')
 			.then(res => res.json())
 			.then(res => this.setState({
 				collections: res
@@ -41,7 +41,6 @@ class App extends React.Component {
 	}
 
   render() {
-		console.log(this.state.collections);
     return (
 			<div>
 				<main>

@@ -1,8 +1,8 @@
 import React from 'react';
 
 const Author = props => (
-	<div>
-		<p>Author - { props.name }</p>
+	<div className = "author">
+		<p> - { props.name }</p>
 	</div>
 );
 
