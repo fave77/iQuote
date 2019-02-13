@@ -4,10 +4,6 @@
 
 ![](https://github.com/pbiswas101/iQuote/blob/master/public/icon.png)
 
-## Live Demo
-
-![](https://github.com/pbiswas101/iQuote/blob/master/iquote_demo.gif)
-
 ## Installation
 
 In your terminal, clone this repository like so:
@@ -28,6 +24,10 @@ $ npm run build
 Next, open up a new Chrome tab and navigate to the URL - `chrome://extensions/` where you need to enable *Developer mode*. Finally, click the button named *Load unpacked* and select the `build` folder inside the repository **iQuote**. And voila! Now, you should have the enabled extension in your browser providing you with the inspiration!
 
 ###### Note: iQuote not yet published on Chrome Web Store
+
+## Live Demo
+
+![](https://github.com/pbiswas101/iQuote/blob/master/iquote_demo.gif)
 
 ## License
 
