@@ -2,11 +2,11 @@
 
 **iQuote** is a chrome extension that randomly generates inspirational quotes and let you tweet about it! Its user Interface has been built with React whereas Node.js has been used to make the API for randomized quotes.
 
-![](https://github.com/pbiswas101/Mathball/blob/master/public/icon.png)
+![](https://github.com/pbiswas101/iQuote/blob/master/public/icon.png)
 
 ## Live Demo
 
-![](https://github.com/pbiswas101/Mathball/blob/master/iquote_demo.gif)
+![](https://github.com/pbiswas101/iQuote/blob/master/iquote_demo.gif)
 
 ## Installation
 
