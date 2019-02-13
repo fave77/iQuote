@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Quote = props => (
-	<div className = "quote">
+	<div className="quote">
 		<p>"{ props.msg }"</p>
 	</div>
 );

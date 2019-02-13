@@ -2,7 +2,11 @@
   "name": "iQuote",
 	"version": "0.1.0",
   "description": "A chrome extension that randomly generates inspirational quotes and let you tweet about it!",
-  "manifest_version": 2,
+	"manifest_version": 2,
+	"icons": { "16": "icon16.png",
+		"48": "icon48.png",
+	 "128": "icon128.png"
+	},
 	"browser_action": {
     "default_popup": "index.html"
 	},

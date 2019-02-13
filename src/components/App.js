@@ -1,4 +1,5 @@
 import React from 'react';
+import Loader from 'react-loader-spinner'
 import Quote from './Quote';
 import Author from './Author';
 import TweetButton from './TweetButton';
@@ -41,16 +42,26 @@ class App extends React.Component {
 	}
 
   render() {
-    return (
-			<div>
-				<main>
-					<Quote msg = { this.state.quote } />
-					<Author name = { this.state.author } />
-				</main>
-				<TweetButton handleTweet = { () => this.handleTweet() } />
-				<NextButton handleQuote = { () => this.handleQuote() } />
-			</div>
-    );
+		return (
+				<div>
+					{
+						(this.state.collections.length)
+						?
+							<div>
+								<main>
+									<Quote msg={ this.state.quote } />
+									<Author name={ this.state.author } />
+								</main>
+								<TweetButton handleTweet={ () => this.handleTweet() } />
+								<NextButton handleQuote={ () => this.handleQuote() } />
+							</div>
+						:
+							<main>
+								<Loader type="Triangle" color="#00bfff" height="50" width="50"/>
+							</main>
+					}
+				</div>
+			);
 	}
 
 }

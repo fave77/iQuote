@@ -14,8 +14,14 @@ main {
 	padding: 0 1em;
 	max-height: 6em;
 	min-height: 6em;
+	align-content: center;
 	font-size: 1.2em;
 	font-family: 'Courgette', cursive;
+}
+
+svg {
+	display: block;
+	margin: auto;
 }
 
 .quote {
@@ -33,7 +39,7 @@ main {
   font-size: 20px;
 	text-align: center;
 	align-content: center;
-  color: #f9fdfc;
+  color: #2fbefc;
 	text-decoration: none;
 	border-radius: 50%;
 }
@@ -48,7 +54,7 @@ main {
 	float: left;
 }
 
-.fa-arrow-right {
+.fa-angle-double-right {
 	background-color: black;
 	float: right;
 }

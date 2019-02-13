@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Author = props => (
-	<div className = "author">
+	<div className="author">
 		<p> - { props.name }</p>
 	</div>
 );
